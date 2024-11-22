@@ -1,0 +1,3 @@
+scenario: 'just_for_try'
+action_type: 'discrete'
+state_type: 'FP'

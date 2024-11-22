@@ -1,0 +1,10 @@
+{"env_args": {
+    "LT_generators": [{"gen_func":"constant", "gen_args":{"value": 5}},
+                        {"gen_func":"constant", "gen_args":{"value": 3}},
+                        {"gen_func":"constant", "gen_args":{"value": 4}}],
+    "dataset_name": "lt_default1"
+},
+"main_args": {
+    "exp_name": "lt_default1"
+}
+}

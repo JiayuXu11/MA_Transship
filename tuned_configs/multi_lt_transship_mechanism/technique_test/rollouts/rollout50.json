@@ -1,0 +1,18 @@
+{
+    "algo_args": {
+        "train": {
+            "n_rollout_threads": 50,
+            "num_env_steps": 100000000,
+            "early_stop": 80
+        }
+    },
+    "algo_mechanism_args":	{
+        "train":	{
+            "n_rollout_threads":	50,
+            "num_env_steps":	100000000
+        }
+    },
+    "main_args": {
+        "exp_name": "rollout50"
+    }
+}

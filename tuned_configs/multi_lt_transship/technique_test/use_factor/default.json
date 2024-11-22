@@ -1,0 +1,10 @@
+{
+    "algo_args": {
+        "algo": {
+            "use_factor": false
+        }
+    },
+    "main_args": {
+        "exp_name": "use_factor_false"
+    }
+}

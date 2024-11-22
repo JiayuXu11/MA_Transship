@@ -1,0 +1,7 @@
+{"env_args": {
+    "shipping_cost_per_distance": 2.0e-4
+},
+"main_args": {
+    "exp_name": "scpu02"
+}
+}

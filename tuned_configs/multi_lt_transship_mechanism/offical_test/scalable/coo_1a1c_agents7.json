@@ -1,0 +1,16 @@
+{"algo_args": {
+    "algo": {
+        "share_param": true,
+        "multi_critic_tf": false,
+        "multi_critic_buffer_tf": false,
+        "use_factor": false
+    }
+},
+"env_args": {
+"num_agents": 7,
+"self_interest": 0
+},
+"main_args": {
+"exp_name": "agents7_share_co"
+}
+}

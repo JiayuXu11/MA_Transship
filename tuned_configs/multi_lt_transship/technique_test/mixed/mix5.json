@@ -1,0 +1,17 @@
+{   "algo_args": {
+        "algo": {
+            "gamma": 0.98,
+            "ppo_epoch": 15,
+            "critic_epoch": 15
+        }, 
+        "train": {
+            "sample_mean_advantage_tf": true
+        }
+    },
+    "env_args": {
+        "gamma": 0.98
+    },
+    "main_args": {
+        "exp_name": "gamma98+ppo_epoch15+sample_mean_adv_true"
+    }
+}

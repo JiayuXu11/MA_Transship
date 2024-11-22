@@ -1,0 +1,8 @@
+{
+    "env_args": {
+        "action_type": "discrete"
+    },
+    "main_args": {
+        "exp_name": "action_type_discrete"
+    }
+}

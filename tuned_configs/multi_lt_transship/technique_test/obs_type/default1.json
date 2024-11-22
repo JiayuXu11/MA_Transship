@@ -1,0 +1,8 @@
+{   "env_args": {
+        "actor_obs_type": "self",
+        "critic_obs_type": "self"
+    },
+    "main_args": {
+        "exp_name": "self_obs"
+    }
+}

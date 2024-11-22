@@ -1,0 +1,10 @@
+{
+    "algo_args": {
+        "train": {
+            "sample_mean_advantage_tf": false
+        }
+    },
+    "main_args": {
+        "exp_name": "sample_mean_advantage_tf_false"
+    }
+}

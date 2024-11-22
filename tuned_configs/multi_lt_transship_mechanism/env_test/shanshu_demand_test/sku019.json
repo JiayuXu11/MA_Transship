@@ -1,0 +1,17 @@
+{"algo_args": {
+    "train": {
+        "model_dir": "/nfsshare/home/xujiayu/marlim/results/multi_lt_transship/default/happo/proactive_demand_SKU019_coo_1a_1c/seed-00001-2024-11-11-12-20-04/models",
+        "num_env_steps": 0
+    }
+},
+  "env_args": {
+    "demand_generators": {"gen_func":"shanshu", "gen_args":{"SKU_id":"SKU019"}},
+    "dataset_name": "SKU019",
+    "estimate_demand_method": "mean",
+    "num_agents": 18
+  },
+  "main_args": {
+    "exp_name": "demand_SKU019",
+    "write_tensorboard_tf": false
+  }
+}

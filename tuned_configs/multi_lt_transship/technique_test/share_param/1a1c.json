@@ -1,0 +1,12 @@
+{
+    "algo_args": {
+        "algo": {
+            "share_param": true,
+            "multi_critic_tf": false,
+            "use_factor": false
+        }
+    },
+    "main_args": {
+        "exp_name": "1a_1c"
+    }
+}

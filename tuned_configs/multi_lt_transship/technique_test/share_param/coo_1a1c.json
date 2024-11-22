@@ -1,0 +1,18 @@
+{
+    "algo_args": {
+        "algo": {
+            "share_param": true,
+            "multi_critic_tf": false,
+            "multi_critic_buffer_tf": false,
+            "use_factor": false
+        }
+    },
+    "env_args": {
+        "critic_obs_type": "full",
+        "self_interest": 0,
+        "inventory_est_others_for_critic_tf": false
+    },
+    "main_args": {
+        "exp_name": "coo_1a_1c"
+    }
+}

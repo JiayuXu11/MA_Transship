@@ -1,0 +1,7 @@
+{"env_args": {
+    "num_agents": 9
+},
+"main_args": {
+    "exp_name": "agents9"
+}
+}

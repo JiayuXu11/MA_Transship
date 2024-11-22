@@ -1,0 +1,35 @@
+{
+    "env_args": {
+        "scenario": "default",
+        "transship_type": "half_autonomy",
+        "product_allocation_method": {"allocate_func":"least_distance"},
+        "actor_obs_type_mechanism": "intentions_only",
+        "critic_obs_type_mechanism": "full",
+        "mechanism_reward_weight_others": 1.0
+    },
+    "algo_mechanism_args":	{
+        "algo":	{
+            "alpha":	0.2,
+            "alpha_lr":	0.0003,
+            "auto_alpha":	true,
+            "fixed_order":	false,
+            "huber_delta":	10.0,
+            "share_param":	false,
+            "use_huber_loss":	false,
+            "use_policy_active_masks":	true
+        },
+        "model":	{
+            "gain":	0.01,
+            "initialization_method":	"orthogonal_",
+            "lr":	0.0005,
+            "use_feature_normalization":	true
+        },
+        "train":	{
+            "use_valuenorm":	false
+        }
+    },
+    "main_args": {
+        "exp_name": "decison_agent_decentral_private",
+        "algo_mechanism": "hasac"
+    }
+}

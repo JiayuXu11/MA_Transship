@@ -1,0 +1,8 @@
+{"env_args": {
+    "demand_generators": {"gen_func":"constant", "gen_args":{"value":10}},
+    "dataset_name": "demand_constant"
+},
+"main_args": {
+    "exp_name": "demand_constant"
+}
+}

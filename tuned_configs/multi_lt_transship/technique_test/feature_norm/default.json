@@ -1,0 +1,10 @@
+{
+    "algo_args": {
+        "model": {
+            "use_feature_normalization": false
+        }
+    },
+    "main_args": {
+        "exp_name": "feature_norm_false"
+    }
+}

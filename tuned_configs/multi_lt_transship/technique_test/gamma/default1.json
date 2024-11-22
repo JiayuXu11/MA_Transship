@@ -1,0 +1,11 @@
+{   "algo_args": {
+        "algo": {
+            "gamma": 0.95
+        }},
+    "env_args": {
+        "gamma": 0.95
+    },
+    "main_args": {
+        "exp_name": "gamma95"
+    }
+}

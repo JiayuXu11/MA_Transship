@@ -1,0 +1,11 @@
+{
+    "algo_args": {
+        "algo": {
+            "ppo_epoch": 20,
+            "critic_epoch": 20
+        }
+    },
+    "main_args": {
+        "exp_name": "ppo_epoch20"
+    }
+}

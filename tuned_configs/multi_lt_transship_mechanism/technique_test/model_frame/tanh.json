@@ -1,0 +1,10 @@
+{
+    "algo_args": {
+        "model": {
+            "activation_func": "tanh"
+        }
+    },
+    "main_args": {
+        "exp_name": "tanh"
+    }
+}

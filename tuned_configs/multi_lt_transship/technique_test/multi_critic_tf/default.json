@@ -1,0 +1,10 @@
+{
+    "algo_args": {
+        "algo": {
+            "multi_critic_tf": false
+        }
+    },
+    "main_args": {
+        "exp_name": "multi_critic_false"
+    }
+}

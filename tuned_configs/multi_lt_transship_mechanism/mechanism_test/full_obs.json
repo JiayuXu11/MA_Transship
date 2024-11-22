@@ -1,0 +1,9 @@
+{
+    "env_args": {
+        "actor_obs_type_mechanism": "same_as_critic"
+
+    },
+    "main_args": {
+        "exp_name": "full_obs"
+    }
+}

@@ -1,0 +1,17 @@
+{   "algo_args": {
+        "algo": {
+            "gamma": 0.97,
+            "ppo_epoch": 20,
+            "critic_epoch": 20
+        }, 
+        "train": {
+            "sample_mean_advantage_tf": false
+        }
+    },
+    "env_args": {
+        "gamma": 0.97
+    },
+    "main_args": {
+        "exp_name": "gamma97+ppo_epoch20+sample_mean_adv_false"
+    }
+}

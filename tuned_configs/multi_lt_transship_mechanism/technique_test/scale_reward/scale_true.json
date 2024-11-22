@@ -1,0 +1,7 @@
+{"env_args": {
+    "reward_scale_tf": true
+},
+"main_args": {
+    "exp_name": "reward_scale_true"
+}
+}

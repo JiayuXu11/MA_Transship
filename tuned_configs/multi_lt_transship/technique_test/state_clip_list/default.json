@@ -1,0 +1,7 @@
+{   "env_args": {
+        "state_clip_list": [-3, 3]
+    },
+    "main_args": {
+        "exp_name": "state_clip3"
+    }
+}

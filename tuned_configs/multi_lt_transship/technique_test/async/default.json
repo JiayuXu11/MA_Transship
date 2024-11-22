@@ -1,0 +1,8 @@
+{   "algo_args": {
+        "train": {
+            "async_tf": true
+        }},
+    "main_args": {
+        "exp_name": "async_true"
+    }
+}

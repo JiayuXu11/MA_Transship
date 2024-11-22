@@ -1,0 +1,11 @@
+{
+    "algo_args": {
+        "algo": {
+            "share_param": true,
+            "use_factor": false
+        }
+    },
+    "main_args": {
+        "exp_name": "1a_nc"
+    }
+}

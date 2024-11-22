@@ -1,0 +1,12 @@
+{"algo_args": {
+        "algo": {
+            "share_param": true
+        }
+    },
+    "env_args": {
+    "num_agents": 10
+},
+"main_args": {
+    "exp_name": "agents10_share"
+}
+}

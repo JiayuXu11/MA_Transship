@@ -1,0 +1,7 @@
+{"env_args": {
+    "constant_transshipment_price": 0.05
+},
+"main_args": {
+    "exp_name": "tp_005"
+}
+}

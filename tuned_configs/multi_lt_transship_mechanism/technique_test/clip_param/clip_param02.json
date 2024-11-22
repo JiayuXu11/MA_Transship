@@ -1,0 +1,9 @@
+{
+    "algo_args": {
+        "algo": {
+            "clip_param": 0.05
+        }},
+    "main_args": {
+        "exp_name": "clip_param02"
+    }
+}

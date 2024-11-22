@@ -1,0 +1,19 @@
+{
+    "algo_args": {
+        "model": {
+            "hidden_sizes": [
+                256
+            ]
+        }
+    },
+    "algo_mechanism_args":	{
+        "model":	{
+            "hidden_sizes":	[
+                64,
+                64
+            ]
+        }},
+    "main_args": {
+        "exp_name": "hidden_256_64"
+    }
+}

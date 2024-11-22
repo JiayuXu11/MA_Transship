@@ -1,0 +1,7 @@
+{"env_args": {
+    "intransit_info_for_actor_critic": ["qty_each", "tomorrow"]
+},
+"main_args": {
+    "exp_name": "intransit_12"
+}
+}

@@ -1,0 +1,14 @@
+{
+    "algo_args": {
+        "algo": {
+            "share_param": true,
+            "multi_critic_tf": false,
+            "use_factor": false
+        },
+        "model": {
+            "prod_prob_weight": 0
+        }},
+    "main_args": {
+        "exp_name": "prod_weight0"
+    }
+}

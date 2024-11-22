@@ -1,0 +1,10 @@
+{"env_args": {
+    "LT_generators": [{"gen_func":"poisson", "gen_args":{"mean":3, "max_num":5}}, 
+                        {"gen_func":"normal", "gen_args":{"mean":3, "std":1, "max_num":5}},
+                        {"gen_func":"uniform", "gen_args":{"min_num":1, "max_num":3}}],
+    "dataset_name": "lt8"
+},
+"main_args": {
+    "exp_name": "lt8"
+}
+}

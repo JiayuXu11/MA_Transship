@@ -1,0 +1,10 @@
+{   "env_args": {
+    "inventory_est_for_critic_tf": true,
+    "demand_info_for_critic": ["long_quantile", "long_mean"],
+    "inventory_est_others_for_critic_tf": false,
+    "critic_obs_type": "full"
+},
+"main_args": {
+    "exp_name": "ctde+d+inv"
+}
+}

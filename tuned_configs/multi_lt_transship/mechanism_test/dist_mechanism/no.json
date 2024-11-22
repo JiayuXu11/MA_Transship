@@ -1,0 +1,8 @@
+{   "env_args": {
+    "transship_type": "no",
+    "product_allocation_method": {"allocate_func": "no"}
+},
+"main_args": {
+    "exp_name": "no_tsp"
+}
+}

@@ -1,0 +1,12 @@
+{
+  "env_args": {
+    "demand_generators": {"gen_func":"shanshu", "gen_args":{"SKU_id":"SKU032"}},
+    "dataset_name": "SKU032",
+    "estimate_demand_method": "mean",
+    "num_agents": 18
+  },
+  "main_args": {
+    "exp_name": "demand_SKU032",
+    "write_tensorboard_tf": false
+  }
+}

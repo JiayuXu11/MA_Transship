@@ -1,0 +1,8 @@
+{   "env_args": {
+    "transship_type": "half_autonomy",
+    "product_allocation_method": {"allocate_func": "anup"}
+},
+"main_args": {
+    "exp_name": "anup_half"
+}
+}

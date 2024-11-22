@@ -1,0 +1,8 @@
+{
+    "env_args": {
+        "reward_type": "profit"
+    },
+    "main_args": {
+        "exp_name": "norm_reward_no"
+    }
+}

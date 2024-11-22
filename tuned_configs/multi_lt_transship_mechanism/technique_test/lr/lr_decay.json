@@ -1,0 +1,9 @@
+{
+    "algo_args": {
+        "train": {
+            "use_linear_lr_decay": true
+        }},
+    "main_args": {
+        "exp_name": "lr_decay"
+    }
+}

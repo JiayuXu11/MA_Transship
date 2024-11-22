@@ -1,0 +1,8 @@
+{   "env_args": {
+        "transship_type": "pure_autonomy",
+        "product_allocation_method": {"allocate_func": "least_distance"}
+    },
+    "main_args": {
+        "exp_name": "least_distance"
+    }
+}

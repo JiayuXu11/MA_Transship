@@ -1,0 +1,13 @@
+{"algo_mechanism_args":	{
+    "algo":	{
+        "batch_size": 10000
+    },
+    "train": {
+        "train_interval": 1000,
+        "update_per_train": 0.1
+    }
+},
+"main_args": {
+    "exp_name": "mec_think4"
+}
+}

@@ -1,0 +1,7 @@
+{   "env_args": {
+        "payment_type": "pay_first"
+    },
+    "main_args": {
+        "exp_name": "pay_first"
+    }
+}
