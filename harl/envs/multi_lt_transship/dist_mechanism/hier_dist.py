@@ -62,7 +62,4 @@ class HierDistribution(BaseMechanism):
         
         return transship_matrix
 
-    # def get_payment(self, transship_intentions, transship_matrix):
-
-    #     return [0] * self.agent_num
     

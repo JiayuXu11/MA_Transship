@@ -19,17 +19,19 @@ class AnupindiDistribution(BaseMechanism):
                       for agent_name in self.env.agents}
         transship_matrix = np.zeros((self.agent_num, self.agent_num))
 
-        if self.env.reactive_tf:
+        if self.env.reactive_tf and self.env.transship_type in ['force_to_transship', 'half_autonomy']:
             transship_intentions_qty = [-self.env.inventory[agent_name] + cur_demand[agent_name] 
                                     if transship_intentions[agent_id]==1 else 0
                                         for agent_id, agent_name in enumerate(self.env.agents)]
-        else:
+        elif self.env.transship_type in ['force_to_transship', 'half_autonomy']:
             transship_intentions_qty = [max(0, -self.env.inventory[agent_name] + cur_demand[agent_name] 
                                         + self.env.demand_est_dict[agent_name] - self.est_future_arrival(agent_name, 0, 1)[0]) + 
                                         min(0, -self.env.inventory[agent_name] + cur_demand[agent_name] 
                                         + self.env.demand_est_dict[agent_name])
                                     if transship_intentions[agent_id]==1 else 0
                                         for agent_id, agent_name in enumerate(self.env.agents)]
+        else:
+            transship_intentions_qty = transship_intentions.copy()
             
         transship_intentions_qty = np.array(transship_intentions_qty)
 
@@ -122,7 +124,7 @@ class AnupindiDistribution(BaseMechanism):
 
         return transship_matrix
 
-    def get_payment(self, transship_intentions, transship_matrix):
+    def get_payment(self, transship_matrix):
         '''
         Generates the payment for each agent based on the transshipment matrix.
         Positive values indicate payments to be made, negative values indicate payments to be received.
@@ -130,7 +132,7 @@ class AnupindiDistribution(BaseMechanism):
         payment_type = self.allocate_args.get('payment_type', 'dual')
         if payment_type != 'dual':
             # 使用父类的get_payment方法
-            return super().get_payment(transship_intentions, transship_matrix)
+            return super().get_payment(transship_matrix)
         else:
             out_price = self.prices[0:self.agent_num]
             in_price = self.prices[self.agent_num:]

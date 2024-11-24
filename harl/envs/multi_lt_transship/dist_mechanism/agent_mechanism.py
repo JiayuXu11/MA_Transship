@@ -75,6 +75,6 @@ class AgentMechanism(BaseMechanism):
         '''
         transship_ratio = kwargs['transship_fulfill_ratio']
         transship_matrix = self.get_transship_matrix(transship_intentions, transship_ratio)
-        payment = self.get_payment(transship_intentions, transship_matrix)
+        payment = self.get_payment(transship_matrix)
         return transship_matrix, payment
     

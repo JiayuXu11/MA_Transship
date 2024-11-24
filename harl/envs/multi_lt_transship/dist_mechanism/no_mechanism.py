@@ -11,6 +11,6 @@ class NoMechanism(BaseMechanism):
     def get_transship_matrix(self, transship_intentions):
         return np.zeros((self.agent_num, self.agent_num))
     
-    def get_payment(self, transship_intentions, transship_matrix):
+    def get_payment(self, transship_matrix):
         return [0] * self.agent_num
     

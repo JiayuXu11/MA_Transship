@@ -22,7 +22,7 @@ class BaseMechanism:
         '''
         return np.zeros((self.agent_num, self.agent_num))
     
-    def get_payment(self, transship_intentions, transship_matrix):
+    def get_payment(self, transship_matrix):
         '''
         根据转运矩阵生成每个agent的payment: [agent0_payment, agent1_payment, ...] 
         正数表示agent需要支付, 负数表示agent需要收到payment
@@ -39,7 +39,7 @@ class BaseMechanism:
         生成mechanism的支配结果，包含转运矩阵和payment
         '''
         transship_matrix = self.get_transship_matrix(transship_intentions)
-        payment = self.get_payment(transship_intentions, transship_matrix)
+        payment = self.get_payment(transship_matrix)
         return transship_matrix, payment
     
     def est_future_arrival(self, agent_name, order_amount, look_ahead_days):
